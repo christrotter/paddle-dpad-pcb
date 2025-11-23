@@ -1,6 +1,7 @@
-# paddle-inator
-NOTE: Ordered pcbs on July 12, 2025, so this is untested at the moment.
+# 2025/11/23 update
+So the 1.1 version is actually wrong, 1.0 version works fine.  The issue was that the dpad (led-pad) was incorrectly pinned, so using led-pad-1.1 and paddle-dpad-1.0 works.
 
+# paddle-inator
 A prototype pcb to mount ALPS SKRHACE010 switches on the back of the thumbcluster and use them as soft-action paddle-keys.  Uses an SK6805-EC15 led indicator and 12-pin 0.5mm pitch FFC connector - I'm trying to move away from single-wire soldering.
 
 The application I'll be trying these out in is for 'curl your fingers inwards' paddle switches, but I needed a very soft touch due to fibromyalgia.
